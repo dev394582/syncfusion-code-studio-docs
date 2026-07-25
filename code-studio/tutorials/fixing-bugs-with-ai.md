@@ -122,6 +122,7 @@ After adding the file as context, type a prompt asking the agent to fix the issu
 
 The more relevant context the AI has, the more accurate its suggestions will be.
 
+
 ## Verify Your Results
 
 - Open the **Problems panel** using `Ctrl+Shift+M` (Windows/Linux) or `Cmd+Shift+M` (Mac) and confirm the error count has decreased or shows zero.
