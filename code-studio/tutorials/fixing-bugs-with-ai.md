@@ -84,13 +84,13 @@ Use this approach when errors require understanding of multiple files or your pr
 
 **Method 1: Right-click in Explorer**
 
-1. Right-click the file in the **Explorer** and select **Add file to chat**:
+Right-click the file in the **Explorer** and select **Add file to chat**:
 
    <img src="./tutorials-images/Context-option.png" alt="Add file to chat option in the Explorer right-click context menu" />
 
 **Method 2: Use Suggested Context**
 
-1. Open the file with errors. The **Chat Panel** will suggest the file as context — click the file name in the chat to add it:
+Open the file with errors. The **Chat Panel** will suggest the file as context — click the file name in the chat to add it:
 
    <img src="./tutorials-images/suggestion-context.png" alt="File suggestion appearing in the Chat Panel for adding as context" />
 
@@ -112,15 +112,23 @@ Use this approach when errors require understanding of multiple files or your pr
 
    <img src="./tutorials-images/hash.png" alt="File list appearing after typing # in the Chat Panel input box" />
 
-   After adding the file as context, type a prompt asking the agent to fix the issues. For example:
+After adding the file as context, type a prompt asking the agent to fix the issues. For example:
 
    ```
    Please review the attached file and fix all errors. Explain what's causing each error and provide the corrected code. Ensure the fixes maintain code quality and don't introduce new bugs.
    ```
 
-   <img src="./tutorials-images/file-context (2).png" alt="Chat Panel showing an attached file as context with a prompt to fix errors" />
+   <img src="./tutorials-images/Problem-context.png" alt="Chat Panel showing an attached file as context with a prompt to fix errors" />
 
 The more relevant context the AI has, the more accurate its suggestions will be.
+
+
+## Verify Your Results
+
+- Open the **Problems panel** using `Ctrl+Shift+M` (Windows/Linux) or `Cmd+Shift+M` (Mac) and confirm the error count has decreased or shows zero.
+- Check that red squiggly underlines are no longer visible in the editor for the lines you fixed.
+- Run your application and confirm the affected features work correctly without new errors in the console or UI.
+- Review the AI-applied code changes to ensure each fix aligns with your project's coding standards and does not introduce new issues.
 
 ## What's Next
 
